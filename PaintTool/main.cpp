@@ -160,8 +160,7 @@ LRESULT CALLBACK WindowProc(HWND _hwnd,
 				UpdateWindow(_hwnd);
 			}
 		}
-
-
+	
 		return (0); // MUST HAVE RETURN  - I CAN HANDLE THIS CASE. DO NOT USE TO DEFAULT CASE.
 		break;
 	}
